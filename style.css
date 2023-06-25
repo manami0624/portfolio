@@ -1,0 +1,190 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+  color: #555555;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+/*header*/
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 24px 16px;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  width: 30%;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 50%;
+  padding: 20px;
+  justify-content: flex-end; /* 修正: 右に寄せる */
+}
+
+.nav-lists-right {
+  display: flex;
+}
+
+.nav-lists-right li {
+  margin-right: 50px; /* 追加: アイコン間のスペースを設定 */
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-lists a {
+  text-decoration: none;
+}
+
+a{
+  color: #333;
+  transition: color 0.3s; /* カラーのトランジション効果 */
+}
+
+a:hover {
+  color: #0085A1; /* マウスオーバー時の文字色 */
+}
+
+li{
+  list-style: none;
+  display: inline-flex; /* 修正: inline-flex に変更 */
+  align-items: center; /* 追加: アイコンを垂直方向に中央揃えする */
+}
+
+/*first-view~bottom-contentの親要素*/
+.contents{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-view{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+  height: 50%;
+  width: 50%;
+  font-size: 80px;
+  text-align: center;
+  font-family: Caveat;
+}
+
+.top-image{
+  height: 40%;
+  width: 40%;
+}
+
+/*新着情報*/
+.upper-content{
+  height: 450px;
+  margin: 0 150px;
+}
+
+.heading-name {
+  text-align: center;
+  border-bottom: 1px solid #0085a1;
+  width: 200px;
+  margin: 40px auto;
+}
+
+.messages {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.message {
+  display: flex;
+  font-size: 18px;
+  margin: 0 0 16px 70px;
+}
+
+.message-date {
+  padding-right: 40px;
+}
+
+
+/*work紹介*/
+.middle-content{
+  height:450px;
+  margin: 0 150px;
+  margin-bottom: 400px;
+}
+.works__list {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px; /* スペースの大きさを指定 */
+  margin: 60px 0;
+}
+
+.stylist-image{
+  height: 250px;
+}
+
+.work-name{
+  font-size: 16px;
+  text-align: center;
+}
+
+.button{
+  font-family: Caveat;
+  font-size: 30px;
+  text-decoration: none;
+  color: #333;
+}
+
+/*skill*/
+.bottom-content{
+  height: 800px;
+  margin: 0 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.jump-btn {
+  width: 150px;
+  height: 150px;
+  bottom: 5px;
+  left: 40px;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+
+/*footer*/
+.footer{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
