@@ -68,6 +68,7 @@ a{
 
 a:hover {
   color: #0085A1; /* マウスオーバー時の文字色 */
+  text-decoration: underline; /* 下線を追加 */
 }
 
 li{
@@ -76,7 +77,6 @@ li{
   align-items: center; /* 追加: アイコンを垂直方向に中央揃えする */
 }
 
-/*first-view~bottom-contentの親要素*/
 .contents{
   background-color: white;
   display: flex;
@@ -136,9 +136,9 @@ li{
 /*work紹介*/
 .middle-content{
   height:450px;
-  margin: 0 150px;
-  margin-bottom: 400px;
+  margin: 120px 150px 300px;
 }
+
 .works__list {
   display: flex;
   justify-content: space-around;
@@ -167,6 +167,10 @@ li{
 }
 
 /*skill*/
+.skill{
+  padding-top: 80px;
+}
+
 .bottom-content{
   height: 800px;
   margin: 0 150px;
@@ -174,6 +178,15 @@ li{
   justify-content: center;
   align-items: center;
   }
+
+.contact{
+  margin-top: 150px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
 
 .jump-btn {
   width: 150px;
@@ -183,7 +196,6 @@ li{
   position: fixed;
   box-sizing: border-box;
 }
-
 
 /*footer*/
 .footer{
