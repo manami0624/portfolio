@@ -20,10 +20,15 @@ ul,li {
 
 /*header*/
 header{
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
+}
+
+.heading {
+  position: fixed;
+  width: 20%;
+  margin-left: 30px;
+  text-decoration: none;
+  width: 20%;
   padding: 20px 24px 16px;
   background: rgba(255, 255, 255, 0.5);
   z-index: 100;
@@ -32,21 +37,21 @@ header{
   align-items: center;
 }
 
-.heading {
-  width: 30%;
-  margin-left: 30px;
-  text-decoration: none;
-}
-
 .lists{
   font-size: 30px;
   color: #777777;
 }
 
 .navbar {
-  width: 50%;
+  width: calc(100%-20%);
+  right: 0;
+  justify-content: flex-end;
   padding: 20px;
-  justify-content: flex-end; /* 修正: 右に寄せる */
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .nav-lists-right {
@@ -54,7 +59,7 @@ header{
 }
 
 .nav-lists-right li {
-  margin-right: 50px; /* 追加: アイコン間のスペースを設定 */
+  margin-right: 45px; /* 追加: アイコン間のスペースを設定 */
 }
 
 .nav-lists {
@@ -217,3 +222,4 @@ li{
   justify-content: center;
   text-align: center;
 }
+
