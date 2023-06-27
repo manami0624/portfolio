@@ -59,7 +59,7 @@ header{
 }
 
 .nav-lists-right li {
-  margin-right: 45px; /* 追加: アイコン間のスペースを設定 */
+  margin-right: 40px; /* 追加: アイコン間のスペースを設定 */
 }
 
 .nav-lists {
@@ -86,13 +86,13 @@ a{
 }
 
 a:hover {
-  color: #0085A1; /* マウスオーバー時の文字色 */
+  color: #0085A1;
 }
 
 li{
   list-style: none;
-  display: inline-flex; /* 修正: inline-flex に変更 */
-  align-items: center; /* 追加: アイコンを垂直方向に中央揃えする */
+  display: inline-flex;
+  align-items: center; /
 }
 
 .contents{
@@ -115,6 +115,12 @@ li{
   font-size: 80px;
   text-align: center;
   font-family: Caveat;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 40px;
+  }
 }
 
 .top-image{
@@ -143,7 +149,13 @@ li{
 .message {
   display: flex;
   font-size: 18px;
-  margin: 0 0 16px 70px;
+  margin: 0 0 16px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .message {
+    font-size: 12px;
+  }
 }
 
 .message-date {
@@ -155,8 +167,23 @@ li{
 .middle-content{
   height:450px;
   margin: 120px 150px 300px;
-}
+  padding: 40px 20px;
 
+}
+@media only screen and (max-width: 600px) {
+  .works__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .works__item {
+    margin-bottom: 40px;
+  }
+  
+  .works__item-btn-block, h5, p{
+    margin: 0 80px;
+  }
+}
 .works__list {
   display: flex;
   justify-content: space-around;
@@ -185,9 +212,21 @@ li{
 }
 
 /*skill*/
-.skill{
+.skill {
   padding-top: 80px;
+  margin-top: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+  .message h5 {
+    font-size: 14px;
+  }
+
+  .skill {
+    margin-top: 800px;
+  }
+}
+
 
 .bottom-content{
   height: 800px;
