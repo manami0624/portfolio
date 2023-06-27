@@ -40,3 +40,15 @@ window.addEventListener('load', function() {
     pullDownButton.classList.add("active");
   }
 });
+
+window.addEventListener('load', function() {
+  const topImage = document.querySelector('.top-image');
+
+  topImage.style.opacity = '0'; // 初期状態で写真を透明にする
+
+  setTimeout(function() {
+    topImage.style.transition = 'opacity 2s'; // 1秒かけて写真が現れるようにする
+    topImage.style.opacity = '1';
+    topImage.style.opacity = '0.9';
+  }, 500); // 0.5秒後にアニメーションを開始する
+});

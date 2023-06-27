@@ -92,7 +92,7 @@ a:hover {
 li{
   list-style: none;
   display: inline-flex;
-  align-items: center; /
+  align-items: center;
 }
 
 .contents{
@@ -103,7 +103,7 @@ li{
 }
 
 .first-view{
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,6 +126,7 @@ li{
 .top-image{
   height: 40%;
   width: 40%;
+  opacity: 0.9;
 }
 
 /*profile*/
@@ -139,6 +140,11 @@ li{
   border-bottom: 1px solid #0085a1;
   width: 200px;
   margin: 40px auto;
+}
+
+.heading-name a{
+  text-decoration: none;
+  color: #555555;
 }
 
 .messages {
@@ -162,6 +168,10 @@ li{
   padding-right: 40px;
 }
 
+.upper-content2{
+  height: 450px;
+  margin: 0 150px;
+}
 
 /*work紹介*/
 .middle-content{
