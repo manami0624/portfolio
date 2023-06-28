@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Manami Tanabe's portfolio</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class="heading">
+        <div class="lists" id="lists">
+          <span class="menu_icon"></span>
+          <span class="menu_text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </span>
+        </div>
+        <div class="nav-lists hidden" id="pull-down">
+          <div class="menu_line"><a href="#profile">Profile</a></div>
+          <div class="menu_line"><a href="#works">Works</a></div>
+          <div class="menu_line"><a href="#skill">Skill</a></div>
+          <div class="menu_line"><a href="#contact">Contact</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="nav-lists-right">
+        <ul>
+          <li>
+            <a href="https://github.com/manami0624">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/soa0624/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="contents">
+      <div class="first-view">
+        <!--写真を表示する-->
+        <div class="logo">Manami Tanabe's portfolio</div>
+        <img src="images/profile.jpg" alt="トップ画像" class="top-image">
+      </div>
+
+      <div class="upper-content", id="profile">
+        <!--『新着情報』を表示する-->
+        <h2 class="heading-name"><a href="#profile">Profile</a></h2>
+        <ul class="messages">
+          <li class="message">・타나베 마나미</li>
+          <li class="message">・일본 삿포로 출신 </li>
+          <li class="message">・영업직 경력 11년</li>
+          <li class="message">・매니저 경험 10년</li>
+          <li class="message">・2021년 3월~11월 건국대학교 언어교육원 한국어 4~6급 수료 ・TOPIK 6급</li>
+          <li class="message">・한국어로 고객 서비스 경험 있음</li>
+        </ul>
+      </div>
+
+      <div class="upper-content2", id="programming">
+        <!--『新着情報』を表示する-->
+        <h2 class="heading-name"><a href="#programming">Programming</a></h2>
+        <ul class="messages">
+            <li class="message">제가 프로그래밍에 관심을 갖게 된 계기는 한국IT 기업 전용 숙소에서의 업무였습니다.</li>
+            <li class="message">한국에서 출장 오시는 엔지니어 분들과 교류하면서,  출장자분들의 업무를 조금이라도 이해하고 일본 생활을 지원하고 싶다는 마음이 생겨서 프로그래밍을 배우가 시작했습니다.</li>
+            <li class="message">알면 알수록 프로그래밍의 세게는 흥미롭고 저도 엔지니어로서 일해보고 싶다는 생각을 갖게 되어, 본격적으로 엔지니어로의 길을 걷기로 결심했습니다.</li>
+            <li class="message">앞으로 고객과 함께 일할 동료들의 니즈에 부응할 수 있는 인재로서 활약하고 싶습니다.</li>
+        </ul>
+      </div>
+
+      <div class="middle-content", id="works">
+        <h2 class="heading-name"><a href="#works">Works</a></h2>
+          <div class="pass">
+            아래의 ID와 PW를 입력해주세요<br>
+            ID: admin / PW: 2222
+          </div>
+        <div class="works__list">
+          <div class="works__item">
+            <div class="works__item-pict">
+              <img src="images/furima.jpg" slt="work1" class="work-image">
+            </div>
+            <div class="work--name">
+              <h5>FURIMA（프리마 앱）</h5>
+            </div>
+            <p>Ruby / Ruby on Rails / MySQL / GitHub / AWS / Visual Studio Code</p>
+            <p>프로그래밍 학원의 최종 과제로서 프리마켓 애플리케이션을 제작했습니다. 사용자를 등록하면 상품을 판매할 수 있게 됩니다. 본인이 등록한 상품은 편집 및 삭제할 수 있습니다. 다른 사용자가 등록한 상품은 신용카드를 사용하여 구매할 수 있습니다.</p>
+            <div class="works__item-btn-block">
+              <a href="http://52.192.78.81:" class="button">To go to the page</a>
+            </div>
+          </div>
+
+          <div class="works__item">
+            <div class="works__item-pict">
+              <img src="images/wannamein.gif" slt="work2" class="work-image">
+            </div>
+            <div class="work--name">
+              <h5>원어민-WannaMeIn<br>
+              （언어 교환 앱）</h5>
+            </div>
+            <p>Ruby / Ruby on Rails / MySQL / GitHub / Render / Visual Studio Code</p>
+            <p>【인간미와 따뜻함】을 주제로 한국어로 일하는  외국 사람들을 지원하는 앱을 만들었습니다. 시간대에 따라 바뀌는 메인 화면의 인사말은 한국의 IT 기업 숙소에서 제가 실제로 고객에게 사용한 말을 사용하고 있습니다.</p>
+            <div class="works__item-btn-block">
+              <a href="https://wannamein.onrender.com/" class="button">To go to the page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="skill", id="skill">
+    <h2 class="heading-name"><a href="#skill">Skill</a></h2>
+      <ul class="messages">
+        <li class="message">
+          <h6>코딩.......................... HTML / CSS</h6>
+        </li>
+        <li class="message">
+          <h6>프론트엔드..................... JavaScript / jQuery</h6>
+        </li>
+        <li class="message">
+          <h6>백엔드......................... Ruby（Ruby on Rails）</h6>
+        </li>
+        <li class="message">
+          <h6>데이터베이스・인프라 ...... MySQL / AWS / Render</h6>
+        </li>
+        <li class="message">
+          <h6>기타.................................... GitHub / Slack</h6>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact", id="contact">
+    <h2 class="heading-name"><a href="#contact">Contact</a></h2>
+    <ul class="messages">
+      <li class="message">
+        <h6>문의사항이 있으시면 편하게 Twitter의 DM으로 연락주세요</h6>
+      </li>
+      <li class="message">
+        <a href="https://twitter.com/soa0624/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>@SOA0624
+        </a>
+      </li>
+    </ul>
+    </div>
+    </div>
+
+
+
+    <footer id="footer" class="footer"><p>&copy; MANAMI TANABE. 2023</p></footer>
+
+    <a href="#top" class="jump-btn">
+      <svg version="1.1" id="_x31_0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="width: 80px; height: 80px; opacity: 1;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:#374149;}
+        </style>
+        <g>
+          <path class="st0" d="M423.9,151.41l-292.746,93.633l-66.442-35.543l-33.449,12.668l-13.199,4.93l0.05,0.051l-0.164,0.062
+            l26.152,27.133l12.676,13.262L7.627,280.362c-4.786,1.45-7.778,5.442-7.622,10.164c0.266,7.973,9.305,14.965,17.527,16.875
+            c8.59,1.996,121.145,14.293,125.246,14.934l1.664,0.258l68.734-19.473l39.023-10.965L204.373,430.03l58.394-20.246
+            c2.633-0.863,5.039-2.222,7.145-4.038c2.004-1.73,3.645-3.805,4.871-6.153l91.414-139.832l85.254-24.156
+            c42.535-12.918,59.503-39.699,60.527-54.547C513.154,164.046,466.486,140.937,423.9,151.41z" style="fill: rgb(19, 18, 18);"></path>
+          <path class="st0" d="M221.022,187.101l67.426-20.473l52.656-15.863l-0.187-0.07l0.246-0.078L175.248,84.316
+            c-2.355-1.219-4.886-1.973-7.523-2.238c-2.766-0.282-5.516-0.012-8.168,0.797l-36.828,10.504l-22.512,6.316l0.102,0.074
+            l-0.195,0.054L221.022,187.101z" style="fill: rgb(19, 18, 18);"></path>
+        </g>
+        </svg>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  </body>
+</html>
