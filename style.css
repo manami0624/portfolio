@@ -59,7 +59,18 @@ header{
 }
 
 .nav-lists-right li {
-  margin-right: 40px; /* 追加: アイコン間のスペースを設定 */
+  margin-right: 30px; /* 追加: アイコン間のスペースを設定 */
+}
+
+.jpkr{
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin-right: 30px;
+}
+
+.jpkr #languageText {
+  display: none;
 }
 
 .nav-lists {
