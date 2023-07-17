@@ -196,7 +196,7 @@ li{
 
 .works__item {
   width: 300px;
-  margin-right: 100px; /* 写真同士の間のスペースを追加 */
+  margin: 0 50px; /* 写真同士の間のスペースを追加 */
 }
 
 @media only screen and (max-width: 600px) {
