@@ -25,12 +25,10 @@ header{
 
 .heading {
   position: fixed;
-  width: 20%;
   margin-left: 30px;
   text-decoration: none;
-  width: 20%;
+  width: 10%;
   padding: 20px 24px 16px;
-  background: rgba(255, 255, 255, 0.5);
   z-index: 100;
   display: flex;
   justify-content: space-between;
@@ -59,7 +57,7 @@ header{
 }
 
 .nav-lists-right li {
-  margin-right: 30px; /* 追加: アイコン間のスペースを設定 */
+  margin-right: 30px;
 }
 
 .jpkr{
@@ -81,6 +79,8 @@ header{
 
 .hidden{
   display: none;
+  height: 0px;
+  margin-left: 10px;
 }
 
 .menu_line{
