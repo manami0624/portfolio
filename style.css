@@ -25,10 +25,9 @@ header{
 
 .heading {
   position: fixed;
-  margin-left: 30px;
   text-decoration: none;
   width: 10%;
-  padding: 20px 24px 16px;
+  padding: 20px 24px 10px;
   z-index: 100;
   display: flex;
   justify-content: space-between;
@@ -85,6 +84,47 @@ header{
 
 .menu_line{
   font-size: 25px;
+  background-color: #fff;
+  padding: 10px 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: calc(100%-20%);
+    justify-content: flex-end;
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .nav-lists-right {
+    display: flex;
+  }
+  
+  .nav-lists-right li {
+    margin-right: 15px;
+  }
+
+  .nav-lists {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  
+  .hidden{
+    display: none;
+    height: 0px;
+  }
+  
+  .menu_line{
+    font-size: 15px;
+    background-color: #fff;
+    padding: 10px 15px;
+  }
 }
 
 .nav-lists a {
@@ -128,13 +168,6 @@ li{
   font-family: Caveat;
 }
 
-@media only screen and (max-width: 600px) {
-  .logo {
-    width: 80%;
-    font-size: 40px;
-  }
-}
-
 .top-image{
   height: 40%;
   width: 40%;
@@ -142,6 +175,11 @@ li{
 }
 
 @media only screen and (max-width: 600px) {
+  .logo {
+    width: 80%;
+    font-size: 40px;
+  }
+
   .top-image{
     height: 60%;
     width: 60%;
@@ -189,10 +227,6 @@ li{
   }
 }
 
-.message-date {
-  padding-right: 40px;
-}
-
 .upper-content2{
   height: 450px;
   margin: 110px 150px 0;
@@ -235,7 +269,7 @@ li{
   }
 
   .works__item-btn-block, h5, p{
-    margin: 0 50px;
+    margin: 0 20px;
   }
 }
 
