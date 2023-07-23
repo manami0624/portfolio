@@ -5,7 +5,7 @@ window.addEventListener('load', function() {
   const menuText = pullDownButton.querySelector(".menu_text");
 
   pullDownButton.addEventListener('mouseover', function() {
-    this.style.color = "#0085A1";
+    this.style.color = "#c81db7";
   });
 
   pullDownButton.addEventListener('mouseout', function() {
