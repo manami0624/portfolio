@@ -112,10 +112,11 @@ ul,li {
   .hidden{
     display: none;
     height: 0px;
+    margin-right: 500px;
   }
   
   .menu_line{
-    font-size: 15px;
+    font-size: 20px;
     background-color: #fff;
     padding: 10px 15px;
   }
@@ -172,12 +173,12 @@ li{
 @media only screen and (max-width: 600px) {
   .logo {
     width: 80%;
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .top-image{
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 80%;
     opacity: 0.9;
   }
 }
@@ -328,7 +329,7 @@ li{
 
 @media only screen and (max-width: 600px) {
   .contact{
-    margin: 250px 40px;
+    margin: 250px 65px;
   }
   .contact-text{
     font-size: medium;
@@ -346,7 +347,6 @@ li{
 
 @media only screen and (max-width: 600px) {
   .jump-btn {
-    width: 50px;
     height: 100px;
     left: 10px;
   }
