@@ -19,14 +19,10 @@ ul,li {
 }
 
 /*header*/
-header{
-  width: 100%;
-}
-
 .heading {
   position: fixed;
   text-decoration: none;
-  width: 10%;
+  width: calc(100% - 90%);
   padding: 20px 24px 10px;
   z-index: 100;
   display: flex;
@@ -40,7 +36,6 @@ header{
 }
 
 .navbar {
-  width: calc(100%-20%);
   right: 0;
   justify-content: flex-end;
   padding: 20px;
@@ -88,15 +83,15 @@ header{
 }
 
 @media only screen and (max-width: 600px) {
+  .heading {
+    max-width: 100%;
+    width: 100%;
+  }
   .navbar {
-    width: calc(100%-20%);
     justify-content: flex-end;
-    padding: 20px;
-    position: fixed;
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    align-items: end;
   }
   
   .nav-lists-right {
@@ -189,7 +184,6 @@ li{
 
 /*profile*/
 .upper-content{
-  height: 450px;
   margin: 0 150px;
 }
 
@@ -234,40 +228,20 @@ li{
 
 /*work紹介*/
 .middle-content{
+  width: 100%;
   margin: 100px;
-  padding: 0 20px;
 }
 
 .works__list {
   display: flex;
   overflow-x: auto; /* 横スクロールのための追加 */
-  gap: 20px; /* コンテンツ間の間隔を調整 */
+  gap: 50px; /* コンテンツ間の間隔を調整 */
   padding-bottom: 20px; /* スクロールバーの下部との間隔を調整 */
   margin: 30px 0;
 }
 
 .works__item {
   margin: 0 50px; /* 写真同士の間のスペースを追加 */
-}
-
-@media only screen and (max-width: 600px) {
-  .middle-content {
-    margin-bottom: 300px; /* Worksコンテンツの下部のマージンを調整 */
-    padding: 40px 20px;
-  }
-  
-  .works__item {
-    flex: 0 0 calc(100% - 40px); /* モバイル表示時の幅を調整 */
-  }
-
-  .works__list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .works__item-btn-block, h5, p{
-    margin-bottom: 20px;
-  }
 }
 
 .pass{
@@ -290,6 +264,30 @@ li{
   color: #393839;
 }
 
+@media only screen and (max-width: 600px) {
+  .middle-content {
+    margin-bottom: 300px; /* Worksコンテンツの下部のマージンを調整 */
+    padding: 40px 20px;
+  }
+  
+  .works__item {
+    flex: 0 0 100%;
+  }
+
+  .work-image{
+    height: 150px;
+  }
+
+  .works__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .works__item-btn-block, h5, p{
+    margin-bottom: 20px;
+  }
+}
+
 /*skill*/
 .skill {
   padding: 165px 0;
@@ -304,7 +302,6 @@ li{
 
 
 .bottom-content{
-  height: 800px;
   margin: 0 150px;
   display: flex;
   justify-content: center;
@@ -312,7 +309,7 @@ li{
   }
 
 .contact{
-  margin-top: 150px;
+  margin: 250px 0;
 }
 
 .contact a {
@@ -329,6 +326,14 @@ li{
   font-size: large;
 }
 
+@media only screen and (max-width: 600px) {
+  .contact{
+    margin: 250px 40px;
+  }
+  .contact-text{
+    font-size: medium;
+  }
+}
 
 .jump-btn {
   width: 80px;
@@ -341,7 +346,7 @@ li{
 
 @media only screen and (max-width: 600px) {
   .jump-btn {
-    width: 100px;
+    width: 50px;
     height: 100px;
     left: 10px;
   }
@@ -349,7 +354,6 @@ li{
 
 /*footer*/
 .footer{
-  margin-top: 350px;
   display: flex;
   justify-content: center;
   text-align: center;
