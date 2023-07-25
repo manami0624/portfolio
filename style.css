@@ -172,13 +172,13 @@ li{
 
 @media only screen and (max-width: 600px) {
   .logo {
-    width: 80%;
+    width: 70%;
     font-size: 60px;
   }
 
   .top-image{
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     opacity: 0.9;
   }
 }
@@ -223,14 +223,21 @@ li{
 }
 
 .upper-content2{
-  margin: 110px 150px 0;
-  padding: 120px 20px;
+  margin: 110px;
+  padding: 100px 140px;
+}
+
+@media only screen and (max-width: 600px) {
+  .upper-content2{
+    padding: 240px 20px;
+  }
 }
 
 /*work紹介*/
 .middle-content{
   width: 100%;
-  margin: 100px;
+  padding: 100px, 0;
+  margin-bottom: 50px;
 }
 
 .works__list {
@@ -267,7 +274,6 @@ li{
 
 @media only screen and (max-width: 600px) {
   .middle-content {
-    margin-bottom: 300px; /* Worksコンテンツの下部のマージンを調整 */
     padding: 40px 20px;
   }
   
@@ -347,7 +353,7 @@ li{
 
 @media only screen and (max-width: 600px) {
   .jump-btn {
-    height: 100px;
+    height: 80px;
     left: 10px;
   }
 }
