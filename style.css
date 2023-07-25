@@ -185,6 +185,7 @@ li{
 
 /*profile*/
 .upper-content{
+  padding-top: 100px;
   margin: 0 150px;
 }
 
@@ -212,6 +213,10 @@ li{
 }
 
 @media only screen and (max-width: 600px) {
+  .upper-content{
+    padding-top: 250px;
+  }
+
   .messages {
     width: 70vw;
     margin: 0 auto;
