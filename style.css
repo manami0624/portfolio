@@ -316,7 +316,7 @@ li{
   }
 
 .contact{
-  margin: 250px 0;
+  padding: 250px 0;
 }
 
 .contact a {
@@ -335,7 +335,7 @@ li{
 
 @media only screen and (max-width: 600px) {
   .contact{
-    margin: 250px 65px;
+    padding: 250px 65px;
   }
   .contact-text{
     font-size: medium;
