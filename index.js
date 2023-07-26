@@ -64,7 +64,6 @@ function changeLanguage(language) {
   }
 }
 
-
 function showLanguageText(element) {
   const languageText = element.querySelector("#languageText");
   languageText.style.display = "block";

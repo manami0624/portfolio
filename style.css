@@ -248,7 +248,7 @@ li{
 .works__list {
   display: flex;
   overflow-x: auto; /* 横スクロールのための追加 */
-  gap: 50px; /* コンテンツ間の間隔を調整 */
+  gap: 20px; /* コンテンツ間の間隔を調整 */
   padding-bottom: 20px; /* スクロールバーの下部との間隔を調整 */
   margin: 30px 0;
 }
