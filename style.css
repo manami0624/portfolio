@@ -82,46 +82,6 @@ ul,li {
   padding: 10px 15px;
 }
 
-@media only screen and (max-width: 600px) {
-  .heading {
-    max-width: 100%;
-    width: 100%;
-  }
-  .navbar {
-    justify-content: flex-end;
-    z-index: 100;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav-lists-right {
-    display: flex;
-  }
-  
-  .nav-lists-right li {
-    margin-right: 15px;
-  }
-
-  .nav-lists {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-left: 0px;
-  }
-  
-  .hidden{
-    display: none;
-    height: 0px;
-    margin-right: 500px;
-  }
-  
-  .menu_line{
-    font-size: 20px;
-    background-color: #fff;
-    padding: 10px 15px;
-  }
-}
-
 .nav-lists a {
   text-decoration: none;
 }
@@ -170,19 +130,6 @@ li{
   opacity: 0.9;
 }
 
-@media only screen and (max-width: 600px) {
-  .logo {
-    width: 70%;
-    font-size: 60px;
-  }
-
-  .top-image{
-    height: 100%;
-    width: 100%;
-    opacity: 0.9;
-  }
-}
-
 /*profile*/
 .upper-content{
   padding-top: 100px;
@@ -212,30 +159,9 @@ li{
   margin: 0 0 16px 30px;
 }
 
-@media only screen and (max-width: 600px) {
-  .upper-content{
-    padding-top: 250px;
-  }
-
-  .messages {
-    width: 70vw;
-    margin: 0 auto;
-  }
-  .message {
-    font-size: 12px;
-    margin: 0 0 10px 0;
-  }
-}
-
 .upper-content2{
   margin: 110px;
   padding: 100px 140px;
-}
-
-@media only screen and (max-width: 600px) {
-  .upper-content2{
-    padding: 240px 20px;
-  }
 }
 
 /*work紹介*/
@@ -277,41 +203,11 @@ li{
   color: #393839;
 }
 
-@media only screen and (max-width: 600px) {
-  .middle-content {
-    padding: 40px 20px;
-  }
-  
-  .works__item {
-    flex: 0 0 100%;
-  }
-
-  .work-image{
-    height: 200px;
-  }
-
-  .works__list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .works__item-btn-block, h5, p{
-    margin-bottom: 20px;
-  }
-}
-
 /*skill*/
 .skill {
   padding: 165px 0;
   background-color: #e1e1e1;
 }
-
-@media only screen and (max-width: 600px) {
-  .skill {
-    padding: 250px 0;
-  }
-}
-
 
 .bottom-content{
   margin: 0 150px;
@@ -338,15 +234,6 @@ li{
   font-size: large;
 }
 
-@media only screen and (max-width: 600px) {
-  .contact{
-    padding: 250px 65px;
-  }
-  .contact-text{
-    font-size: medium;
-  }
-}
-
 .jump-btn {
   width: 80px;
   height: 80px;
@@ -356,13 +243,6 @@ li{
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-  .jump-btn {
-    height: 80px;
-    left: 10px;
-  }
-}
-
 /*footer*/
 .footer{
   display: flex;
@@ -370,3 +250,108 @@ li{
   text-align: center;
 }
 
+/*スマホ表示*/
+@media only screen and (max-width: 600px) {
+  .heading {
+    max-width: 100%;
+    width: 100%;
+  }
+  .navbar {
+    justify-content: flex-end;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-lists-right {
+    display: flex;
+  }
+  
+  .nav-lists-right li {
+    margin-right: 15px;
+  }
+
+  .nav-lists {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  
+  .hidden{
+    display: none;
+    height: 0px;
+    margin-right: 500px;
+  }
+  
+  .menu_line{
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px 15px;
+  }
+  
+  .upper-content{
+    padding-top: 250px;
+  }
+
+  .messages {
+    width: 70vw;
+    margin: 0 auto;
+  }
+  .message {
+    font-size: 12px;
+    margin: 0 0 10px 0;
+  }
+
+  .logo {
+    width: 70%;
+    font-size: 60px;
+  }
+
+  .top-image{
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .upper-content2{
+    padding: 240px 20px;
+  }
+
+  .middle-content {
+    padding: 40px 20px;
+  }
+  
+  .works__item {
+    flex: 0 0 100%;
+  }
+
+  .work-image{
+    height: 200px;
+  }
+
+  .works__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .works__item-btn-block, h5, p{
+    margin-bottom: 20px;
+  }
+
+  .skill {
+    padding: 250px 0;
+  }
+
+  .contact{
+    padding: 250px 65px;
+  }
+  .contact-text{
+    font-size: medium;
+  }
+  
+  .jump-btn {
+    height: 80px;
+    left: 10px;
+  }
+}
