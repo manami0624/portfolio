@@ -78,7 +78,6 @@ ul,li {
 
 .menu_line{
   font-size: 25px;
-  background-color: #fff;
   padding: 10px 15px;
 }
 
@@ -103,38 +102,38 @@ li{
 }
 
 .contents{
-  background-color: white;
+  background-color: #c2c2c2;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .first-view{
-  margin-top: 80px;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end; /* 要素を右側に寄せる */
   align-items: center;
+  background-color: #c2c2c2;
+  position: relative;
 }
 
 .logo{
-  height: 50%;
-  width: 50%;
-  font-size: 80px;
+  font-size: 300px;
+  color: rgba(250, 4, 254, 0.514);
+  top: 50%; /* 垂直方向中央に配置 */
+  position: absolute;
+  transform: translateY(-50%); /* 中央揃えのために移動 */
   text-align: center;
   font-family: Caveat;
+  z-index: 1;
 }
 
 .top-image{
-  height: 40%;
-  width: 40%;
-  opacity: 0.9;
+  height: 54%;
+  width: 54%;
+  opacity: 0.5;
+  z-index: 0;
 }
 
-/*profile*/
-.upper-content{
-  padding-top: 100px;
-  margin: 0 150px;
-}
+
 
 .heading-name {
   text-align: center;
@@ -169,6 +168,7 @@ li{
   width: 100%;
   padding: 100px, 0;
   margin-bottom: 50px;
+  background-color: #fff;
 }
 
 .works__list {
@@ -206,7 +206,7 @@ li{
 /*skill*/
 .skill {
   padding: 165px 0;
-  background-color: #e1e1e1;
+  background-color: #c2c2c2;
 }
 
 .bottom-content{
