@@ -302,19 +302,28 @@ li{
     margin: 0 0 10px 0;
   }
 
+  .first-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c2c2;
+    position: relative;
+  }
+
   .logo {
     width: 80%;
     font-size: 80px;
     font-weight: bold;
-    top: 50%; /* 垂直方向中央に配置 */
+    top: 60%; /* 垂直方向中央に配置 */
     position: absolute;
     transform: translateY(-50%); /* 中央揃えのために移動 */
     text-align: center;
   }
 
   .top-image{
-    height: 80%;
-    width: 80%;
+    margin-top: 60px;
+    height: 60%;
+    width: 60%;
     opacity: 0.9;
   }
 
