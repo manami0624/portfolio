@@ -137,6 +137,8 @@ li{
 
 .heading-name {
   text-align: center;
+  font-family: Caveat;
+  font-weight: bold;
   border-bottom: 2px solid #c81db7;
   width: 200px;
   margin: 40px auto;
@@ -173,6 +175,8 @@ li{
 
 .work-heading-name{
   text-align: center;
+  font-family: Caveat;
+  font-weight: bold;
   border-bottom: 2px solid #c81db7;
   width: 200px;
   margin: 40px auto;
@@ -319,13 +323,12 @@ li{
 
   .logo {
     width: 80%;
-    font-size: 80px;
+    font-size: 85px;
     font-weight: bold;
-    color: rgba(250, 4, 254, 0.411);
-    top: 60%; /* 垂直方向中央に配置 */
+    color: rgba(250, 4, 254, 0.319);
+    top: 25%; /* 垂直方向中央に配置 */
     transform: rotate(-8deg);
     position: absolute;
-    transform: translateY(-50%); /* 中央揃えのために移動 */
     text-align: center;
   }
   
