@@ -116,11 +116,11 @@ li{
 }
 
 .logo{
-  font-size: 300px;
-  color: rgba(250, 4, 254, 0.514);
-  top: 50%; /* 垂直方向中央に配置 */
+  font-size: 297px;
+  color: rgba(250, 4, 254, 0.4);
+  top: 2%;
   position: absolute;
-  transform: translateY(-50%); /* 中央揃えのために移動 */
+  transform: rotate(-9deg);
   text-align: center;
   font-family: Caveat;
   z-index: 1;
@@ -137,7 +137,7 @@ li{
 
 .heading-name {
   text-align: center;
-  border-bottom: 1px solid #c81db7;
+  border-bottom: 2px solid #c81db7;
   width: 200px;
   margin: 40px auto;
 }
@@ -166,9 +166,16 @@ li{
 /*work紹介*/
 .middle-content{
   width: 100%;
-  padding: 100px, 0;
+  padding: 130px 0 100px 0;
   margin-bottom: 50px;
   background-color: #fff;
+}
+
+.work-heading-name{
+  text-align: center;
+  border-bottom: 2px solid #c81db7;
+  width: 200px;
+  margin: 40px auto;
 }
 
 .works__list {
@@ -176,7 +183,7 @@ li{
   overflow-x: auto; /* 横スクロールのための追加 */
   gap: 20px; /* コンテンツ間の間隔を調整 */
   padding-bottom: 20px; /* スクロールバーの下部との間隔を調整 */
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .works__item {
@@ -314,11 +321,14 @@ li{
     width: 80%;
     font-size: 80px;
     font-weight: bold;
+    color: rgba(250, 4, 254, 0.411);
     top: 60%; /* 垂直方向中央に配置 */
+    transform: rotate(-8deg);
     position: absolute;
     transform: translateY(-50%); /* 中央揃えのために移動 */
     text-align: center;
   }
+  
 
   .top-image{
     margin-top: 60px;
