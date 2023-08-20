@@ -442,7 +442,14 @@ li{
   }
 
   .profile-texts {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+  }
+
+  .profile-texts2 {
+    border-left: none; /* スマホ表示時は縦線を非表示にする */
+    padding-left: 0; /* 左の余白をリセット */
+    margin-left: auto; /* 中央に配置する */
+    padding: 0 50px;
   }
   
   .jump-btn {
