@@ -267,6 +267,12 @@ li{
     max-width: 100%;
     width: 100%;
   }
+
+  .lists{
+    font-size: 30px;
+    color: #c81db7;
+  }
+
   .navbar {
     justify-content: flex-end;
     z-index: 100;
@@ -302,7 +308,7 @@ li{
   
   .menu_line{
     font-size: 20px;
-    padding: 10px 15px;
+    padding: 7px 15px;
   }
   
   .upper-content{
