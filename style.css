@@ -113,12 +113,15 @@ li{
   align-items: center;
   background-color: #c2c2c2;
   position: relative;
+  overflow: hidden;
 }
 
 .logo{
-  font-size: 297px;
+  font-size: 295px;
   color: rgba(250, 4, 254, 0.4);
-  top: 2%;
+  top: 10%;
+  left: -9%;
+  line-height: 1.2; /* 行間を詰める */
   position: absolute;
   transform: rotate(-9deg);
   text-align: center;
@@ -227,8 +230,9 @@ li{
   align-items: center;
   }
 
+/*contact*/
 .contact{
-  padding: 250px 0;
+  padding: 180px 0;
 }
 
 .contact a {
@@ -243,6 +247,34 @@ li{
 
 .contact-text{
   font-size: large;
+}
+
+/*profile*/
+.profile{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image{
+  height: 180px;
+  width: 180px;
+  margin: 0 50px 0 200px;
+  border-radius: 100px;
+}
+
+.profile-texts{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-text{
+  margin: 5px 0;
+}
+
+.profile-text.bold {
+  font-weight: bold;
+  font-size: larger;
 }
 
 .jump-btn {
@@ -262,7 +294,7 @@ li{
 }
 
 /*スマホ表示*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .heading {
     max-width: 100%;
     width: 100%;
@@ -338,6 +370,7 @@ li{
     font-weight: bold;
     color: rgba(250, 4, 254, 0.52);
     top: 55%; /* 垂直方向中央に配置 */
+    left: 10%;
     transform: rotate(-8deg);
     position: absolute;
     text-align: center;
@@ -384,6 +417,22 @@ li{
   }
   .contact-text{
     font-size: medium;
+  }
+
+  .profile {
+    flex-direction: column; /* 要素を縦に配置 */
+    align-items: center;
+  }
+
+  .profile-image {
+    height: 120px;
+    width: 120px;
+    margin: 20px auto; /* 中央に配置 */
+    border-radius: 100px;
+  }
+
+  .profile-texts {
+    margin-bottom: 50px;
   }
   
   .jump-btn {
