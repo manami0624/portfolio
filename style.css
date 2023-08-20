@@ -211,10 +211,12 @@ li{
 }
 
 .button{
-  font-family: Caveat;
-  font-size: 25px;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
   text-decoration: none;
-  color: #393839;
+  color: #fff;
+  background-color: #c5c5c5;
 }
 
 /*skill*/
@@ -369,7 +371,7 @@ li{
     font-size: 45px;
     font-weight: bold;
     color: rgba(250, 4, 254, 0.52);
-    top: 55%; /* 垂直方向中央に配置 */
+    top: 50%; /* 垂直方向中央に配置 */
     left: 10%;
     transform: rotate(-8deg);
     position: absolute;
