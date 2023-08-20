@@ -255,7 +255,9 @@ li{
 .profile{
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  background-color: #383838;
 }
 
 .profile-image{
@@ -272,11 +274,13 @@ li{
 
 .profile-text{
   margin: 5px 0;
+  color: #fff;
 }
 
 .profile-text.bold {
   font-weight: bold;
   font-size: 25px;
+  color: #fff;
 }
 
 .profile-texts2{
@@ -285,12 +289,13 @@ li{
   flex-direction: column;
   padding-left: 30px; /* 仕切りの左側に余白を追加 */
   border-left: 1px solid #ccc; /* 縦線を追加 */
+  color: #fff;
 }
 
 .jump-btn {
-  width: 80px;
-  height: 80px;
-  bottom: 5px;
+  width: 70px;
+  height: 70px;
+  bottom: 320px;
   left: 20px;
   position: fixed;
   box-sizing: border-box;
@@ -299,8 +304,9 @@ li{
 /*footer*/
 .footer{
   display: flex;
-  justify-content: center;
   text-align: center;
+  color: #fff;
+  background-color: #383838;
 }
 
 /*スマホ表示*/
