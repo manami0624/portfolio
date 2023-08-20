@@ -142,9 +142,9 @@ li{
   text-align: center;
   font-family: Caveat;
   font-weight: bold;
-  /* border-bottom: 2px solid #c81db7; */
   width: 200px;
   margin: 40px auto;
+  font-size: 70px;
 }
 
 .heading-name a{
@@ -180,9 +180,9 @@ li{
   text-align: center;
   font-family: Caveat;
   font-weight: bold;
-  /* border-bottom: 2px solid #c81db7; */
   width: 200px;
   margin: 40px auto;
+  font-size: 70px;
 }
 
 .works__list {
@@ -213,15 +213,14 @@ li{
 .button{
   font-size: 20px;
   padding: 5px 20px;
-  border-radius: 5px;
   text-decoration: none;
-  color: #fff;
-  background-color: #c5c5c5;
+  color: #383838;
+  border: solid #383838;
 }
 
 /*skill*/
 .skill {
-  padding: 165px 0;
+  padding: 150px 0;
   background-color: #c2c2c2;
 }
 
