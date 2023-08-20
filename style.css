@@ -224,6 +224,14 @@ li{
   background-color: #c2c2c2;
 }
 
+.skill-heading-name{
+  text-align: center;
+  font-family: Caveat;
+  font-weight: bold;
+  margin: 40px auto;
+  font-size: 70px;
+}
+
 .bottom-content{
   margin: 0 150px;
   display: flex;
