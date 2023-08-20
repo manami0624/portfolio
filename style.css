@@ -459,7 +459,6 @@ li{
   }
   
   .jump-btn {
-    height: 80px;
-    left: 10px;
+    display: none; /* スマホ表示時に非表示にする */
   }
 }
