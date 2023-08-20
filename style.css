@@ -142,7 +142,7 @@ li{
   text-align: center;
   font-family: Caveat;
   font-weight: bold;
-  border-bottom: 2px solid #c81db7;
+  /* border-bottom: 2px solid #c81db7; */
   width: 200px;
   margin: 40px auto;
 }
@@ -180,7 +180,7 @@ li{
   text-align: center;
   font-family: Caveat;
   font-weight: bold;
-  border-bottom: 2px solid #c81db7;
+  /* border-bottom: 2px solid #c81db7; */
   width: 200px;
   margin: 40px auto;
 }
@@ -259,8 +259,8 @@ li{
 }
 
 .profile-image{
-  height: 180px;
-  width: 180px;
+  height: 160px;
+  width: 160px;
   margin: 0 50px 0 200px;
   border-radius: 100px;
 }
@@ -276,7 +276,15 @@ li{
 
 .profile-text.bold {
   font-weight: bold;
-  font-size: larger;
+  font-size: 25px;
+}
+
+.profile-texts2{
+  margin-left:90px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px; /* 仕切りの左側に余白を追加 */
+  border-left: 1px solid #ccc; /* 縦線を追加 */
 }
 
 .jump-btn {
