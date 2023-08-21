@@ -102,7 +102,6 @@ li{
 }
 
 .contents{
-  background-color: #c2c2c2;
   display: flex;
   flex-direction: column;
 }
@@ -310,8 +309,8 @@ li{
 
 /*footer*/
 .footer{
-  display: flex;
-  text-align: center;
+  padding-left: 50px;
+  text-align: left;
   color: #fff;
   background-color: #383838;
 }
@@ -333,6 +332,10 @@ li{
     z-index: 100;
     display: flex;
     justify-content: space-between;
+  }
+
+  .navbar ul {
+    display: none; /* ul要素を非表示にする */
   }
   
   .nav-lists-right {
@@ -385,14 +388,15 @@ li{
     align-items: center;
     background-color: #c2c2c2;
     position: relative;
-  }
+    overflow: visible; /* overflowを解除する */
+    }
 
   .logo {
     width: 80%;
-    font-size: 45px;
+    font-size: 80px;
     font-weight: bold;
-    color: rgba(250, 4, 254, 0.52);
-    top: 50%; /* 垂直方向中央に配置 */
+    color: rgba(250, 4, 254, 0.433);
+    top: 40%; /* 垂直方向中央に配置 */
     left: 10%;
     transform: rotate(-8deg);
     position: absolute;
@@ -411,9 +415,19 @@ li{
   }
 
   .middle-content {
-    padding: 40px 20px;
+    padding: 100px 20px 0 20px;
+    margin-bottom: 0;
   }
   
+  .work-heading-name{
+    text-align: center;
+    font-family: Caveat;
+    font-weight: bold;
+    width: 200px;
+    margin: 0px auto;
+    font-size: 50px;
+  }
+
   .works__item {
     flex: 0 0 100%;
   }
@@ -432,11 +446,19 @@ li{
   }
 
   .skill {
-    padding: 250px 0;
+    padding: 120px 0;
+  }
+
+  .skill-heading-name{
+    text-align: center;
+    font-family: Caveat;
+    font-weight: bold;
+    margin: 20px auto;
+    font-size: 50px;
   }
 
   .contact{
-    padding: 250px 65px;
+    padding: 220px 65px;
   }
   .contact-text{
     font-size: medium;
@@ -468,4 +490,13 @@ li{
   .jump-btn {
     display: none; /* スマホ表示時に非表示にする */
   }
+
+  .footer{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    background-color: #383838;
+    padding-left: 0;
+  }
+
 }
