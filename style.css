@@ -77,7 +77,8 @@ ul,li {
 }
 
 .menu_line{
-  font-size: 25px;
+  width: 200px;
+  font-size: 20px;
   padding: 10px 15px;
 }
 
