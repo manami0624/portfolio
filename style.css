@@ -141,7 +141,7 @@ li{
 
 .heading-name {
   text-align: center;
-  font-family: Caveat;
+  /* font-family: Caveat; */
   width: 200px;
   margin: 40px auto;
   font-size: 70px;
@@ -178,7 +178,7 @@ li{
 
 .work-heading-name{
   text-align: center;
-  font-family: Caveat;
+  /* font-family: Caveat; */
   width: 200px;
   margin: 40px auto;
   font-size: 70px;
@@ -225,7 +225,7 @@ li{
 
 .skill-heading-name{
   text-align: center;
-  font-family: Caveat;
+  /* font-family: Caveat; */
   margin: 40px auto;
   font-size: 70px;
 }
@@ -297,6 +297,115 @@ li{
   color: #fff;
 }
 
+.tag-text {
+  justify-content: center;
+  font-size: 110px;
+  /* font-family: Caveat; */
+  padding-top: 120px;
+  line-height: 0.5;
+}
+
+.tag-text-sub{
+  justify-content: center;
+  font-family: Caveat;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.tag_area ul {
+  margin: 0;
+  padding: 0 80px;
+  list-style: none;
+}
+.tag_area ul li {
+  margin: 0 .3em .3em 0;
+}
+.tag_area ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  height: 34px;
+  padding: 0 1em;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+  box-sizing: border-box;
+}
+
+.tag_area ul li a:hover {
+  border: 1px solid #c81db7;
+  color: #c81db7;
+}
+.tag_area ul li a:before {
+  content: "#";
+  padding-right: 2px;
+}
+
+/*popup*/
+/* 背景のスタイル */
+.remodal-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* モーダル本体 */
+.remodal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* 画像のスタイル */
+.mainImg img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* タイトルのスタイル */
+.ttl {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* テキストのスタイル */
+.tx {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.remodal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
 .jump-btn {
   width: 70px;
   height: 70px;
@@ -308,10 +417,10 @@ li{
 
 /*footer*/
 .footer{
-  padding-left: 50px;
-  text-align: left;
-  color: #fff;
+  text-align: center;
+  color: #aaa;
   background-color: #383838;
+  padding-top: 50px;
 }
 
 /*スマホ表示*/
