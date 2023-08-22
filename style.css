@@ -300,7 +300,6 @@ li{
 .tag-text {
   justify-content: center;
   font-size: 110px;
-  /* font-family: Caveat; */
   padding-top: 120px;
   line-height: 0.5;
 }
@@ -349,62 +348,6 @@ li{
   padding-right: 2px;
 }
 
-/*popup*/
-/* 背景のスタイル */
-.remodal-wrapper {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* モーダル本体 */
-.remodal {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  max-width: 600px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  text-align: center;
-}
-
-/* 画像のスタイル */
-.mainImg img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px;
-}
-
-/* タイトルのスタイル */
-.ttl {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-/* テキストのスタイル */
-.tx {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.remodal-close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  color: #333;
-}
-
-
 
 .jump-btn {
   width: 70px;
@@ -428,6 +371,14 @@ li{
   .heading {
     max-width: 100%;
     width: 100%;
+  }
+
+  .heading-name {
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin: 0px auto;
+    font-size: 50px;
   }
 
   .lists{
@@ -529,7 +480,6 @@ li{
   
   .work-heading-name{
     text-align: center;
-    font-family: Caveat;
     font-weight: bold;
     width: 200px;
     margin: 0px auto;
@@ -559,7 +509,6 @@ li{
 
   .skill-heading-name{
     text-align: center;
-    font-family: Caveat;
     font-weight: bold;
     margin: 20px auto;
     font-size: 50px;
@@ -570,6 +519,46 @@ li{
   }
   .contact-text{
     font-size: medium;
+  }
+
+  .tag-text {
+    justify-content: center;
+    font-size: 80px;
+    padding-top: 120px;
+    line-height: 0.5;
+  }
+
+  .tag-text-sub{
+    justify-content: center;
+    font-family: Caveat;
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+
+  .tag_area ul {
+    margin: 0;
+    padding: 0 40px;
+    list-style: none;
+  }
+
+  .tag_area ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    height: 34px;
+    padding: 0 1em;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #aaa;
+    font-size: 10px;
+    text-decoration: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+    box-sizing: border-box;
   }
 
   .profile {
