@@ -204,6 +204,10 @@ li{
   height: 280px;
 }
 
+.portfolio-image{
+  height: 290px;
+}
+
 .work-name{
   font-size: 16px;
   text-align: center;
